@@ -47,7 +47,7 @@
             make pdf OUTFILE=$out/inftheory-slides.pdf
           '');
           inp = ./.;
-          PATH = lib.makeBinPath [ bash coreutils gnumake tex pandoc gnome.librsvg ];
+          PATH = lib.makeBinPath [ bash coreutils gnumake tex pandoc librsvg ];
         });
         defaultPackage = packages.inftheory-slides-pdf;
 
