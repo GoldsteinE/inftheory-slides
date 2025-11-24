@@ -1,5 +1,6 @@
 {
   inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     metropolis = {
       url = "github:matze/mtheme";
